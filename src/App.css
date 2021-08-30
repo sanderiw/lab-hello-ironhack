@@ -15,13 +15,84 @@
 
 .App-header {
   background-color: #282c34;
-  min-height: 100vh;
+  min-height: 90vh;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
+  justify-content: flex-start;
   font-size: calc(10px + 2vmin);
   color: white;
+  background-image: url("./assets/images/react-logo.svg");
+  background-repeat:repeat-y;
+  background-position-x: right;
+  background-size: auto;
+}
+
+.App-header-nav {
+  width: 80vw;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 30px;
+}
+
+.App-intro {
+  margin-top: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  margin-left: 90px;
+}
+
+.App-intro div h1 {
+ font-size: 96px;
+ text-align: left;
+ margin-bottom: 20px;
+ 
+}
+
+.App-intro div p {
+  text-align: left;
+  width: 55%;
+  margin-bottom: 70px;
+  margin-top: 0;
+
+}
+
+.App-intro div button {
+  text-decoration: none;
+  border: 2px solid white;
+  border-radius: 6px;
+  padding: 25px 30px;
+  background-color: white;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.App-main {
+  display:flex;
+  justify-content: center;
+  margin: 200px 60px;
+  align-items: flex-start;
+}
+
+.App-main div {
+  margin: 0 25px;
+  width: 200px;
+}
+
+.App-main div h2 {
+  font-size: 32px;
+  text-align: left;
+  margin-left: 10px;
+}
+
+.App-main div p {
+  color: gray;
+  font-size: 20px;
+  text-align: left;
+  margin-left: 8px;
 }
 
 .App-link {
